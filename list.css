@@ -1,0 +1,14 @@
+.list:nth-child(2n+1)
+{
+	background: orange;
+	width:200px;
+}
+.list:nth-child(2n)
+{
+	background: green;
+	width:200px;
+}
+li+li
+{
+	border-top:3px solid black;
+}

@@ -1,0 +1,84 @@
+.flag
+{
+	height:0px;
+	width:70px;
+	border-top: 20px blue solid;
+	border-bottom: 20px yellow solid
+}
+.flag1
+{
+	height:0px;
+	width:50px;
+	border-top: 20px solid black;
+	border-bottom: 20px solid red;
+	border-right:20px solid green;
+}
+.flag2
+{
+	height:0px;
+	width:10px;
+	border-top: 20px solid orange;
+	border-bottom: 20px solid orange;
+	border-right:20px solid white;
+	border-left:20px solid white;
+}
+.romb:before
+{
+	content: "";
+	height:0px;
+	width:40px;
+	border-top: 20px solid white;
+	border-bottom: 20px solid orange;
+	border-right:20px solid white;
+	border-left:20px solid white;
+}
+.romb:after
+{
+	content: "";
+	height:0px;
+	width:40px;
+	border-top: 20px solid orange;
+	border-bottom: 20px solid white;
+	border-right:20px solid white;
+	border-left:20px solid white;
+	position:relative;
+	top:56px;
+	left:-44px;
+}
+.leaf
+{
+	height: 100px;
+	width:100px;
+	background: green;
+	border:1px solid black;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+.leaf1
+{
+	height: 100px;
+	width:100px;
+	background: green;
+	border-top:1px solid black;
+	border-bottom: 1px solid blue;
+	border-left: 1px solid black;
+	border-right:1px solid blue;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+}
+.leaf2
+{
+	height: 100px;
+	width:100px;
+	background: green;
+	border-top:1px solid black;
+	border-bottom: 1px solid blue;
+	border-left: 1px solid black;
+	border-right:1px solid blue;
+	border-top-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	position:relative;
+	right:-102px;
+	top:-102px;
+	transform: rotate(90deg);
+}
